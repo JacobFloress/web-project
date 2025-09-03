@@ -1,10 +1,10 @@
-# 🚀 CI/CD Pipeline on AWS
+# CI/CD Pipeline on AWS
 
 This project is an **end-to-end Continuous Integration and Continuous Deployment (CI/CD) pipeline** built on **Amazon Web Services (AWS)**. It automates the full software delivery lifecycle—from code commits to build, testing, packaging, and deployment—using modern DevOps practices.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 - Automated **build, test, and deploy workflows** triggered on each GitHub commit.  
 - Implemented **infrastructure as code** with AWS CloudFormation for repeatable and scalable environments.  
 - Integrated multiple AWS services for a production-style pipeline:
@@ -16,19 +16,12 @@ This project is an **end-to-end Continuous Integration and Continuous Deployment
 
 ---
 
-## 🔧 Key Features
+## Key Features
 - **Web Application Deployment**: Hosted a Java web app on AWS EC2 with Apache Tomcat & Apache HTTP server.  
 - **Secure Remote Development**: Configured remote SSH access via VS Code for direct cloud development.  
 - **Automated Builds**: Used `buildspec.yml` to define build phases (install, pre-build, build, post-build).  
 - **Deployment Automation**: Managed lifecycle events with `appspec.yml` and shell scripts (`install_dependencies.sh`, `start_server.sh`, `stop_server.sh`).  
 - **End-to-End Pipeline**: A single GitHub commit triggers build, artifact packaging, and deployment to a live environment.
-
----
-
-## 🖼️ Architecture
-<p align="center">
-  <img src="docs/ci_cd_pipeline_diagram.png" alt="CI/CD Pipeline Diagram" width="600">
-</p>
 
 ---
 
@@ -60,12 +53,10 @@ This project is an **end-to-end Continuous Integration and Continuous Deployment
 - appspec.yml # Deployment instructions for CodeDeploy
 - scripts/ # Lifecycle event scripts (install/start/stop)
 - src/ # Java application source code
-- docs/ # Documentation & diagrams
-
 
 ---
 
 ## 🌐 Live Demo
-Deployed on AWS EC2: *(Insert Public DNS or Load Balancer URL here)*
+Provisioned and deployed on AWS EC2; decommissioned resources after testing to avoid charges
 
 ---
