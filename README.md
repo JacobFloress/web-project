@@ -49,10 +49,10 @@ This project is an **end-to-end Continuous Integration and Continuous Deployment
 ---
 
 ## Repository Structure
-- buildspec.yml # Build instructions for CodeBuild
-- appspec.yml # Deployment instructions for CodeDeploy
-- scripts/ # Lifecycle event scripts (install/start/stop)
-- src/ # Java application source code
+- buildspec.yml (Build instructions for CodeBuild)
+- appspec.yml (Deployment instructions for CodeDeploy)
+- scripts/ (Lifecycle event scripts (install/start/stop))
+- src/ (Java application source code)
 
 ---
 
