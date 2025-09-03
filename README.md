@@ -25,30 +25,30 @@ This project is an **end-to-end Continuous Integration and Continuous Deployment
 
 ---
 
-## 📝 Lessons Learned
+## Lessons Learned
 - Gained hands-on experience with **IAM roles, permissions, and security best practices**.  
 - Learned to **troubleshoot build & deployment errors** using AWS CloudWatch logs.  
 - Built a **portfolio-ready DevOps project** showcasing automation at scale.  
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 - **AWS Services**: EC2, CodePipeline, CodeBuild, CodeDeploy, CodeArtifact, CloudFormation, S3  
 - **Languages & Tools**: Java, Maven, Bash, Git, GitHub, VS Code  
 
 ---
 
-## ▶️ How It Works
+## How It Works
 1. Developer pushes code to GitHub  
 2. CodePipeline triggers and fetches the source  
 3. CodeBuild compiles, tests, and packages the app into an artifact (WAR file)  
 4. Artifact is uploaded to S3  
 5. CodeDeploy retrieves the artifact, runs lifecycle scripts, and deploys the app to EC2  
-6. Application is updated live 🎉  
+6. Application is updated live 
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 - buildspec.yml # Build instructions for CodeBuild
 - appspec.yml # Deployment instructions for CodeDeploy
 - scripts/ # Lifecycle event scripts (install/start/stop)
@@ -56,7 +56,7 @@ This project is an **end-to-end Continuous Integration and Continuous Deployment
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 Provisioned and deployed on AWS EC2; decommissioned resources after testing to avoid charges
 
 ---
