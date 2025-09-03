@@ -58,5 +58,3 @@ This project is an **end-to-end Continuous Integration and Continuous Deployment
 
 ## Live Demo
 Provisioned and deployed on AWS EC2; decommissioned resources after testing to avoid charges
-
----
