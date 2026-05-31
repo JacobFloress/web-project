@@ -1,4 +1,5 @@
 # CI/CD Pipeline on AWS
+### Academic Paper: [https://drive.google.com/file/d/1e3a60XnTK6Ty-O_5kPFLs-YxTgdVSrAh/view?usp=sharing]
 
 This project is an **end-to-end Continuous Integration and Continuous Deployment (CI/CD) pipeline** built on **Amazon Web Services (AWS)**. It automates the full software delivery lifecycle—from code commits to build, testing, packaging, and deployment—using modern DevOps practices.
 
